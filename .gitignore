@@ -1,2 +1,4 @@
 .idea
 pyasynch.iml
+build
+dist
