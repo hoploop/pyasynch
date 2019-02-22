@@ -73,3 +73,6 @@ Everything is ready, now you can run the endpoint service (check if RabbitMQ is 
 python3 main.py -c myconfig.json -r myroutes.json -p 8081
 
 You can replicate nodes and endpoint logic in a scalable way.
+
+You can then perform JSON get or POST to the endpoint:
+http://127.0.0.1:8081/mynode/mymethod
